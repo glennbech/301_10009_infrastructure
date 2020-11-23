@@ -11,7 +11,7 @@
     - På linje 14 i `provider.tf` må bucket-navnet erstattes med navnet til den du nettopp lagde.
 4. Kryptering
     - Logg in via Travis CLI.
-    - Kjør følgende kommandoer kjøres:
+    - Kjør følgende kommandoer:
     ```
     travis encrypt GCP_PROJECT_ID=<project-id> --add env.global
     travis encrypt LOGZ_TOKEN=<logzioToken> --add env.global
