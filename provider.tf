@@ -25,4 +25,5 @@ provider "google" {
 
 provider "statuscake" {
     username = var.statuscake_username
+    version = "~> 1.0.0"
 }
